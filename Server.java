@@ -38,7 +38,7 @@ public class Server {
 
         	public Handler(Socket connection, int no) {
             		this.connection = connection;
-	    		this.no = no+1;
+	    		this.no = no;
         	}
 
         public void run() {
